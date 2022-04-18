@@ -39,8 +39,8 @@ https://www.python.org/ftp/python/3.9.7/python-3.9.7-macos11.pkg
 2. Install virtualenv, create a virtual environment and activate it:
 ```
 python3.9 -m pip install virtualenv
-python3.9 -m virtualenv emerg
-source emerg/bin/activate
+python3.9 -m virtualenv ehapi
+source ehapi/bin/activate
 ```
 3. Navigate to the repository folder
 ```
