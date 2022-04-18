@@ -3,7 +3,6 @@
 # EHAPI: A standardized cohort definition for hospital-acquired pressure injury based on electronic health records.
 
 We analyze the complexity of defining hospital acquired bedsores using diverse but inconsistent data sources, provide a definition that more closely resembles nursing guidelines, and showcase the higher accuracy of a hospital acquired bedsore prediction model based on our definition on a large dataset (MIMIC-III).
-.
 
 
 ## Table of Contents
