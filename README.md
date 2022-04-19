@@ -58,10 +58,14 @@ https://physionet.org/content/mimiciii/1.4/
 ```
 
 ### analyze_consistency.py 
+Plot upset plots for the four cohorts and the PI sources in MIMIC III, and the Venn diagrams for the overlap of data sources.
 
 ### define_cohorts.py
+Creates the label for each cohort using MIMIC III CSV tables.
 
 ### run_model_comparisons.py 
+Run Gradient boosting and sequential neural networks based on different training labels from each cohort.
+
 
 ## Contributors
 * Mani Sotoodeh 
