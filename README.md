@@ -51,16 +51,19 @@ pip install -r requirements.txt
 ```
 ## Code Structure
 
+We assume that the MIMIC-III CSV files have been downloaded from the following link
+
+```
+https://physionet.org/content/mimiciii/1.4/
+```
+
 ### analyze_consistency.py 
-Increasing the days-ahead parameter in the range [1,13], we look at how the model's performance on the test set in terms of the defined metric change.
 
 ### define_cohorts.py
-Script for generating sample features and number of cases for 100 regions
 
 ### run_model_comparisons.py 
-Runs an emergence detection model using feature time series
-and case numbers for a set of locations. 
 
 ## Contributors
 * Mani Sotoodeh 
+* Wenhui Zhang
 
