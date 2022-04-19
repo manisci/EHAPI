@@ -22,23 +22,23 @@ This repository contains the code to extract and analyze the congruence among HA
 
 This code has been running and tested with the following specification:
 
-* OS: macOS Monterey	12.3
-* Python version: Python 3.9.7
-* Architecture: Apple M1 chip
+* OS: Linux 4.4.0-1107-aws
+* Python version: Python 3.6.5
 
 Dependencies required are documented in the ''requirements.txt' file. 
 
 ## Installation and Setup
 
 After cloning this repository onto your local machine, do the following:
-1. Install Python 3.9.7 from the follwing link:
+1. Install Python 3.6.5 from the follwing link:
 ```
-https://www.python.org/ftp/python/3.9.7/python-3.9.7-macos11.pkg
+https://www.python.org/ftp/python/3.6.5/Python-3.6.5.tgz
+
 ```
 2. Install virtualenv, create a virtual environment and activate it:
 ```
-python3.9 -m pip install virtualenv
-python3.9 -m virtualenv ehapi
+python3.6 -m pip install virtualenv
+python3.6 -m virtualenv ehapi
 source ehapi/bin/activate
 ```
 3. Navigate to the repository folder
