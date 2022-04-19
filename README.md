@@ -67,3 +67,19 @@ https://physionet.org/content/mimiciii/1.4/
 * Mani Sotoodeh 
 * Wenhui Zhang
 
+## References
+We utilized the following repositories for this project.
+
+```
+https://github.com/MIT-LCP/mimic-code
+```
+
+```
+https://github.com/emcramer/pressure_ulcer_prediction_mimic
+```
+
+```
+https://github.com/MLforHealth/MIMIC_Extract
+```
+
+
