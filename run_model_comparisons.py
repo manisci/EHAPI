@@ -378,7 +378,7 @@ def compare_cohorts(data_path, test_data_path, def_path, results_path, nruns, gt
             randint = np.random.randint(100)
             additiol_file_name = (
             str(randint) +  (cohort) 
-            + str(split_idx) + "_inc_rel_co_teach_plus_both"
+            + str(split_idx) + ""
             )
             with open(
             data_path + additiol_file_name + "full_experiment_fullcomb.json", "w"
