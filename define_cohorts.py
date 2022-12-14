@@ -1,7 +1,4 @@
 import os
-os.chdir("/home/mani/nursing/PU_nursing")
-
-
 import scipy
 import numpy as np
 import matplotlib.pyplot as plt
